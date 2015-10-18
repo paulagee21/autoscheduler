@@ -16,6 +16,12 @@ function checkEmpty() {
 		$("#notifications").append("<p>You have no new notifications.</p>");
 	}
 }
+
+$(".card").on('click', function() {
+	$(this).find(".card2").toggle(500);
+	$(this).toggleClass("active");
+	
+})
 	
 function initMenu() {
     $('#menu ul').hide();
