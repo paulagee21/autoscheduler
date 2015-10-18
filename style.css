@@ -294,7 +294,7 @@ tr:nth-child(even) {
 	background-color: #F2F2F2;
 }
 
-tbody tr:hover{
+#searchresults table tbody tr:hover{
 	background-color: #FFFFFF;
 }
 
@@ -303,8 +303,22 @@ td a img {
 	width: 30px;
 }
 
+.subsection td a img {
+	opacity: 1;
+}
+
 .subsection .card{
 	padding: 5px 20px;
+	cursor: pointer;
+}
+
+.subsection .card:hover{
+	background-color: #ffffff;
+}
+
+.card.active, #notifications .card:hover {
+	border-left: 5px solid #F50057;
+	background-color: #ffffff;
 }
 
 @media (max-width: 768px) {
