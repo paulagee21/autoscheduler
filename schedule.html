@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+<script src="jquery/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="sidebar.css" />
+<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<div class="container-2">
+	<nav class="navbar navbar-custom no-margin navbar-fixed-top">
+		<div class="navbar-header fixed-brand">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
+				<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+			 </button>
+			 <a class="navbar-brand" href="home.html">UPV AutoScheduler</a>
+		</div>
+		<!--<ul class="nav navbar-nav navbar-right">
+			<li>hello</li>
+		</ul>-->
+	</nav>
+	<div id="wrapper">
+		<div id="sidebar-wrapper" class="sidebar-fixed">
+			<div class="pad">
+				<a href="create.html"><button class="create">
+					<img src="icons/add.png" class="icon" />create schedule
+				</button></a>
+			</div>
+			<ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+				<li>
+					<a href="home.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-dashboard fa-stack-1x "></i></span>Home</a>
+				</li>
+				<li>
+					<a href="studyplan.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-cloud-download fa-stack-1x "></i></span>View Study Plan</a>
+				</li>
+				<li>
+					<a href="classes.html"> <span class="fa-stack fa-lg pull-left"><i class="fa fa-cart-plus fa-stack-1x "></i></span>View Classes</a>
+				</li>
+				<li class="activee">
+					<a href="schedule.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-youtube-play fa-stack-1x "></i></span>View Schedules</a>
+				</li>
+			</ul>
+		</div>
+		<div id="content">
+			<div id="searchbar" class="section">
+				<h1 class="page-header">View Schedules</h1>
+				<hr class="style" />
+				<div id="searchbar-container">
+					<form>
+						<input type="search" id="search" placeholder="Search..." />
+						<input type="submit" id="search" value=""/>
+					</form>
+				</div>
+			</div>
+			<div id="searchresults" class="section">
+				<div class="card">
+					<table class="table">
+					<thead>
+						<tr>
+							<th>Name & Description</th>
+							<th class="hidden-xs">A.Y.</th>
+							<th class="hidden-xs">Sem</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><h4>Aaaaaaaa</h4>
+							<span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit.</span></td>
+							<td class="hidden-xs">2011-2012</td>
+							<td class="hidden-xs">1</td>
+							<td><a href=""><img src="icons/view.png" /></a><a href=""><img src="icons/edit.png" /></a><a href=""><img src="icons/delete.png" /></a></td>
+						</tr>
+						<tr>
+							<td><h4>Bbbbbbb</h4>
+							<span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit.</span></td>
+							<td class="hidden-xs">2011-2012</td>
+							<td class="hidden-xs">2</td>
+							<td><a href=""><img src="icons/view.png" /></a><a href=""><img src="icons/edit.png" /></a><a href=""><img src="icons/delete.png" /></a></td>
+						</tr>
+						<tr>
+							<td><h4>Ccccccc</h4>
+							<span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit.</span></td>
+							<td class="hidden-xs">2012-2013</td>
+							<td class="hidden-xs">1</td>
+							<td><a href=""><img src="icons/view.png" /></a><a href=""><img src="icons/edit.png" /></a><a href=""><img src="icons/delete.png" /></a></td>
+						</tr>
+						<tr>
+							<td><h4>Dddddddd</h4>
+							<span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit.</span></td>
+							<td class="hidden-xs">2012-2013</td>
+							<td class="hidden-xs">2</td>
+							<td><a href=""><img src="icons/view.png" /></a><a href=""><img src="icons/edit.png" /></a><a href=""><img src="icons/delete.png" /></a></td>
+						</tr>
+						<tr>
+							<td><h4>Eeeeeeee</h4>
+							<span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit.</span></td>
+							<td class="hidden-xs">2013-2014</td>
+							<td class="hidden-xs">1</td>
+							<td><a href=""><img src="icons/view.png" /></a><a href=""><img src="icons/edit.png" /></a><a href=""><img src="icons/delete.png" /></a></td>
+						</tr>
+						<tr>
+							<td><h4>Ffffffff</h4>
+							<span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit.</span></td>
+							<td class="hidden-xs">2013-2014</td>
+							<td class="hidden-xs">2</td>
+							<td><a href=""><img src="icons/view.png" /></a><a href=""><img src="icons/edit.png" /></a><a href=""><img src="icons/delete.png" /></a></td>
+						</tr>
+					</body>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="sidemenubar.js"></script>
+</body>
+</html>

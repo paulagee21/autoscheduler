@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+<script src="jquery/jquery.min.js"></script>
+<script src="jquery/jquery.mobile.min.css"></script>
+<script src="jquery/jquery.mobile.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="sidebar.css" />
+<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<div class="container-2">
+	<nav class="navbar navbar-custom no-margin navbar-fixed-top">
+		<div class="navbar-header fixed-brand">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
+				<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+			 </button>
+			 <a class="navbar-brand" href="home.html">UPV AutoScheduler</a>
+		</div>
+		<!--<ul class="nav navbar-nav navbar-right">
+			<li>hello</li>
+		</ul>-->
+	</nav>
+	<div id="wrapper">
+		<div id="sidebar-wrapper" class="sidebar-fixed">
+			<div class="pad">
+				<a href="create.html"><button class="create">
+					<img src="icons/add.png" class="icon" />create schedule
+				</button></a>
+			</div>
+			<ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+				<li>
+					<a href="home.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-dashboard fa-stack-1x "></i></span>Home</a>
+				</li>
+				<li class="activee">
+					<a href="studyplan.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-cloud-download fa-stack-1x "></i></span>View Study Plan</a>
+				</li>
+				<li>
+					<a href="classes.html"> <span class="fa-stack fa-lg pull-left"><i class="fa fa-cart-plus fa-stack-1x "></i></span>View Classes</a>
+				</li>
+				<li>
+					<a href="schedule.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-youtube-play fa-stack-1x "></i></span>View Schedules</a>
+				</li>
+			</ul>
+		</div>
+		<div id="content">
+			<div id="study-plan" class="section">
+				<h1 class="page-header">View Study Plan</h1>
+				<hr class="style" />
+				<div class="subsection">
+					</div>
+					<div class="card" data-role="collapsible"><h3>First Year</h3>
+						<div>
+							<h4>First Semester</h4>
+							<h4>Second Semester</h4>
+						</div>
+					</div>
+					<div class="card"><h3>Second Year</h3></div>
+					<div class="card"><h3>Third Year</h3></div>
+					<div class="card"><h3>Fourth Year</h3></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="sidemenubar.js"></script>
+</body>
+</html>

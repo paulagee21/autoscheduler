@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+<script src="jquery/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="sidebar.css" />
+<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<div class="container-2">
+	<nav class="navbar navbar-custom no-margin navbar-fixed-top">
+		<div class="navbar-header fixed-brand">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
+				<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+			 </button>
+			 <a class="navbar-brand" href="home.html">UPV AutoScheduler</a>
+		</div>
+		<!--<ul class="nav navbar-nav navbar-right">
+			<li>hello</li>
+		</ul>-->
+	</nav>
+	<div id="wrapper">
+		<div id="sidebar-wrapper" class="sidebar-fixed">
+			<div class="pad">
+				<a href="create.html"><button class="create">
+					<img src="icons/add.png" class="icon" />create schedule
+				</button></a>
+			</div>
+			<ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+				<li class="activee">
+					<a href="home.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-dashboard fa-stack-1x "></i></span>Home</a>
+				</li>
+				<li>
+					<a href="studyplan.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-cloud-download fa-stack-1x "></i></span>View Study Plan</a>
+				</li>
+				<li>
+					<a href="classes.html"> <span class="fa-stack fa-lg pull-left"><i class="fa fa-cart-plus fa-stack-1x "></i></span>View Classes</a>
+				</li>
+				<li>
+					<a href="schedule.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-youtube-play fa-stack-1x "></i></span>View Schedules</a>
+				</li>
+			</ul>
+		</div>
+		<div id="content">
+			<div id="dashboard" class="section">
+				<h1 class="page-header">Welcome back, user!</h1>
+				<hr class="style" />
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing 
+					elit. Pellentesque gravida mollis tortor a rhoncus. 
+					Duis condimentum eu urna vitae condimentum. 
+					Mauris viverra, neque et aliquet volutpat, nisi leo 
+					semper tellus, ac elementum enim lacus ut magna. 
+					Suspendisse eu efficitur tellus.
+				</p>
+			</div>
+			<div id="notifications" class="section">
+				<h1 class="page-header">Notice</h1>
+				<hr class="style" />
+				<div class="card-group">
+					<div class="card">
+						<div class="notif">
+							<h4>A new course offering is available!</h4>
+							<span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit.</span>
+						</div>
+						<div class="close">
+							x
+						</div>
+					</div>
+					<div class="card">
+						<div class="notif">
+							<h4>A new course offering is available!</h4>
+							<span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit.</span>
+						</div>
+						<div class="close">
+							x
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="sidemenubar.js"></script>
+</body>
+</html>
